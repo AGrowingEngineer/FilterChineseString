@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  TestDemo
+
+  Created by Beauty-ruanjian-063 on 2018/8/30.
+  Copyright © 2018年 Beauty-ruanjian-063. All rights reserved.
+*/
+
+"一个按钮" = "a button";
+"点击上面的\"按钮\"进入\"SecondViewController\"" = "click the \"button\" above then enter the \"SecondViewController\"";
+"这是" = "this is";
+"这是placeholder" = "this is placeholder";
+"这是一个按钮" = "this is a button";

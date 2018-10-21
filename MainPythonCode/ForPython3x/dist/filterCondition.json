@@ -1,0 +1,24 @@
+{
+    "filterCondition":{
+
+        "要过滤掉的文件路径":"",
+        "filePaths":[
+            "/Users/ruanjian-063/MRSocialContact/"
+        ],
+
+        "要过滤掉的log相关的关键词":"",
+        "logMethods":[
+            "LogError",
+            "SLLogVerbose",
+            "SLLogInfo",
+            "SLLogWarning"
+        ],
+        
+        "其它需要过滤的关键词":"",
+        "otherMethods":[
+            "FCHEvent",
+            "sensorPush",
+            "handleSensorEventWithEventString"
+        ]
+    }
+}
