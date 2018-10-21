@@ -23,7 +23,7 @@
 - 第二种：从项目中获得待提取中文的文件  
 首先，在Xcode打开对应的项目。  
 接着，如图所示，在左边工具栏选中搜索  
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/准备工作2.png)  
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/准备工作2.png)  
 在搜寻类别中选择 ```Find > Regular Expression```  
 在搜索框中输入 ```@"[^"]*[\u4E00-\u9FA5]+[^"\n]*?"``` 按下回车，就能得到全部包含中文的字符串。  
 最后，把上面搜索到的结果，全选、复制、保存到txt文件中。  
@@ -38,13 +38,13 @@
   1. 需要过滤社交目录下的所有字符串，过滤路径大概是这样  
 ```"/Users/ruanjian-063/MRSocialContact/xxxxxx"```  
 故在json文件中，添加如图所示的路径：  
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/准备工作3-1.png)   
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/准备工作3-1.png)   
 ```注：因为Pods路径下的已默认过滤了，这里不需要再添加。```  
   2. 需要过滤掉一些特定的log方法，添加关键词如图所示：  
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/准备工作3-2.png)  
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/准备工作3-2.png)  
 需要解析的是```“LogError”```这个关键词：因为本项目中有用到```“SLLogError”``` 和 ```“DDLogError”```两个关键词来打印log，所以根据它们共同性得到了关键词```“LogError”```。  
   3. 需要过滤掉神策统计相关函数方法，添加关键词如图所示：  
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/准备工作3-3.png)  
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/准备工作3-3.png)  
 解析：```“FCHEvent”```是由函数方法```”[FCHEvent shareInstance].appxxxxxxxxx”```提取而来。  
 ```“sensorPush”```是由函数方法  
 ```“[FCHSensorTool sensorPushEventKey:]”``` 和
@@ -54,12 +54,12 @@
 ## 3.运行程序  
 经过上面的步骤后，就可以借助终端来运行本程序了。    
 首先，运行终端，用cd命令进入到存放本程序Python代码的目录下，如图所示：     
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/运行.png) 
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/运行.png) 
 ```
 注意这里的2.x和3.x分别对应的是Python的不同版本
 ```  
 接着，键入命令```python MainCode.py```运行本程序代码（请注意自己系统的Python版本），就能看到如下图所示的界面  
-![avatar](http://gitlab.adnonstop.com/Demo/FetchChinese-Debate/raw/master/PicSources/运行效果.png)  
+![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/运行效果.png)  
 ## 4.功能一：提取项目中文并去重  
 &emsp;&emsp;点击```“功能一”```区域的“选择文件”按钮，选中在上面准备工作步骤中准备好的```stringFile.txt```文件后，双击或者点击“Open”按钮。  
 &emsp;&emsp;等待8秒左右，就会弹出输入保存文件名的弹窗。输入对应名字，就可以在桌面生成中文去重后的xlsx文件。  
