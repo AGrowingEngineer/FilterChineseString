@@ -35,7 +35,7 @@
 其他过滤条件则需要根据具体项目，添加具体条件。  
 例如，本项目中添加的条件有：  
 
-  1. 需要过滤社交目录下的所有字符串，过滤路径大概是这样  
+  1. 需要过滤某个依赖目录下的所有字符串，过滤路径大概是这样  
 ```"/Users/ruanjian-063/MRSocialContact/xxxxxx"```  
 故在json文件中，添加如图所示的路径：  
 ![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/准备工作3-1.png)   
