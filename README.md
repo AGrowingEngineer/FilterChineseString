@@ -53,12 +53,12 @@
 
 ## 3.运行程序  
 经过上面的步骤后，就可以借助终端来运行本程序了。    
-首先，运行终端，用cd命令进入到存放本程序Python代码的目录下，如图所示：     
 ![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/运行.png) 
 ```
-注意这里的2.x和3.x分别对应的是Python的不同版本
-```  
-接着，键入命令```python MainCode.py```运行本程序代码（请注意自己系统的Python版本），就能看到如下图所示的界面  
+注意这里的2x和3x分别对应的是Python的不同版本
+``` 
+首先，进入2x或者3x文件夹下的dist文件，双击运行里面的程序。 
+接着，就能看到如下图所示的界面  
 ![avatar](https://github.com/AGrowingEngineer/FilterChineseString/blob/master/PicSources/运行效果.png)  
 ## 4.功能一：提取项目中文并去重  
 &emsp;&emsp;点击```“功能一”```区域的“选择文件”按钮，选中在上面准备工作步骤中准备好的```stringFile.txt```文件后，双击或者点击“Open”按钮。  
